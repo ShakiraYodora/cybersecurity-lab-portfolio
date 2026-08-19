@@ -1,47 +1,58 @@
 # Cybersecurity Lab Portfolio
 
-Welcome to my cybersecurity portfolio!
+Welcome to my cybersecurity portfolio.
 
-This repository documents hands-on cybersecurity labs and projects focused on network security, security operations, vulnerability management, and defensive security.
+This portfolio documents hands-on projects I've completed while developing practical skills in network security, Windows security, Active Directory, identity and access management, security monitoring, and incident investigation.
 
-My goal is to apply cybersecurity concepts in practical environments while developing the technical and analytical skills required for cybersecurity and SOC analyst roles.
-
-## Featured Projects
-
-### 🔍 SOC Network Traffic Analysis Lab – Wireshark
-
-Performed hands-on packet capture and network traffic analysis using Wireshark in a Windows environment.
-
-**Skills demonstrated:**
-- Network traffic analysis
-- TCP/IP and OSI model analysis
-- DNS investigation
-- TCP three-way handshake analysis
-- TCP stream analysis
-- TLS 1.3 / HTTPS analysis
-- ARP and ICMP analysis
-- Wireshark display filtering
-- SOC-style network investigation
-- Evidence-based security analysis
-
-**Tools:** Wireshark | Npcap | Windows
-
-➡️ [View the Wireshark Network Analysis Project](./wireshark-network-analysis/)
+Each project includes documentation and evidence showing not only what I configured, but how I analyzed the security activity and explained my findings.
 
 ---
 
-## Portfolio Focus
+## Featured Projects
 
-Projects in this portfolio will demonstrate hands-on experience with:
+### 🔎 Wireshark Network Traffic Analysis Lab
 
-- SOC Analysis
-- Network Security
-- Vulnerability Assessment
-- Threat Detection
-- Security Monitoring
-- Incident Investigation
-- Windows and Linux Security
+Analyzed live network traffic using Wireshark to examine DNS queries, TCP connections, TLS-encrypted traffic, ICMP communication, and normal versus potentially suspicious network behavior.
 
-## Currently Building
+**Skills:** Wireshark • Network Analysis • TCP/IP • DNS • TLS • ICMP • SOC Analysis
 
-More cybersecurity labs and investigations will be added as I continue expanding my hands-on experience.
+[View Wireshark Network Analysis Lab](https://github.com/shakirayodora/Wireshark-Network-Analysis-Lab)
+
+---
+
+### 🛡️ Windows Security Event Investigation Lab
+
+Investigated Windows Security logs from a SOC analyst perspective, including failed and successful logons, account creation and deletion, and changes to privileged group membership.
+
+**Skills:** Windows Event Viewer • Log Analysis • Authentication Monitoring • Privilege Escalation • SOC Investigation
+
+[View Windows Security Event Investigation Lab](https://github.com/ShakiraYodora/windows-security-log-investigation)
+
+---
+
+### 🔐 Active Directory Security & SOC Investigation Lab
+
+Built and secured a Windows Server Active Directory environment using AD DS, DNS, Organizational Units, security groups, least-privilege delegation, and Group Policy.
+
+Configured password and account-lockout controls, simulated authentication and privilege-related activity, and investigated Windows Security events including 4625, 4740, 4720, 4728, 4729, and 4726.
+
+**Skills:** Active Directory • Windows Server • Group Policy • IAM • RBAC • Least Privilege • Windows Event Logs • Security Monitoring
+
+[View Active Directory Security Lab](https://github.com/shakirayodora/Active-Directory-Security-Lab)
+---
+
+## In Progress
+
+### Vulnerability Assessment & Remediation Lab
+
+Building a vulnerability-management lab focused on identifying, assessing, prioritizing, and remediating vulnerabilities in a controlled virtual environment.
+
+**Planned Skills:** Vulnerability Assessment • Vulnerability Management • Remediation • Risk Analysis • Virtualization
+
+---
+
+## About This Portfolio
+
+My goal with these projects is to move beyond cybersecurity theory and develop practical experience with the tools, technologies, and investigative thinking used in real security environments.
+
+As I continue building my skills, additional projects and security investigations will be added to this portfolio.
